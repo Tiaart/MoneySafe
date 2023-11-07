@@ -6,9 +6,6 @@ const financeReport = document.querySelector('.finance__report');
 const Report = document.querySelector('.report');
 const reportClose = document.querySelector('.report__close');
 
-
-
-
 let amount = 0;
 
 financeForm.addEventListener('submit', (e) => {
@@ -29,7 +26,6 @@ financeForm.addEventListener('submit', (e) => {
     financeAmound.textContent = `${amount.toLocaleString()}₽`;
 
 });
-
 
 financeReport.addEventListener('click', (e) => {
     e.preventDefault();
